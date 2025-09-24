@@ -1,0 +1,50 @@
+/* Blog Yii2 - Custom Styles */
+
+/* Navigation */
+.navbar-nav .dropdown-menu {
+    border: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn + .btn {
+    margin-left: 0.5rem;
+}
+
+/* Alerts */
+.alert-info {
+    border-left: 4px solid #0dcaf0;
+}
+
+/* Logout Button */
+.navbar-nav .nav-link.btn {
+    margin: 0.25rem 0;
+    border-radius: 0.25rem;
+}
+
+.navbar-nav .nav-link.btn:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
